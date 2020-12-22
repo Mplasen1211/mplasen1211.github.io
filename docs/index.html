@@ -1,193 +1,114 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head> 
-		<meta charset="utf-8">
-		<title>Cozy Living</title>
-		<link rel="stylesheet" href="./style/shared.css">
-		<link rel="stylesheet" href="./style/animations.css">
-	</head>
-	<body>
+<html>
+    <!--Head-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" />
+        <title>Marlene Plasencia</title>
+        <link rel="stylesheet" type="text/css" href="Stylesheet.css">
+    </head>
 
-		<!-- NAV -->
-		<div class="wrap">
-			<div class="menu-container">
-				<ul class="menu">
-					<a href="#home"><li>HOME</li></a>
-					<a href="#gallery"><li>GALLERY</li></a>
-					<a href="#contact"><li>RESERVATIONS</li></a>
-				</ul>
-			</div>		
-		</div>
-		<!-- END NAV -->
+    <!--Body-->
+    <body class="Background">
+        
+        <!--Navbar-->
+        <div class="Navbar">
+            <a class="active" href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#GitHub">GitHub</a>
+            <a href="#Contact">Contact</a>
+        </div>
 
-		<!-- HOME -->
-		<div id="home">
-			<div class="container">
-				<div class="text-center">
-					<span class="head-main">Cozy Living</span>
-				</div>
-			</div>
-		</div>
-		<!-- END HOME -->
-		
-		<!-- GALLERY -->
-		<section id="gallery">
-			<div class="container">
-				<h1>Gallery</h1>
-				<div class="flex-container">
-					<!-- PHOTO-CONTAINER 1 -->
-					<div class="photo-container">
-						<div class="photo">
-							<img src="./images/thumbs/thumbnail_1.jpg" alt="">
-							<div class="photo-overlay">
-								<h3>Click to Enlarge</h3>
-								<p>"Crashing Waves in Autumn". A statement piece for any living area.</p>
-							</div>
-						</div>
-					</div>
-					<!-- END PHOTO-CONTAINER 1 -->
+        <!--Breaks inserted to add space between navbar and the first heading-->
+        <br>
+        <br>
 
-					<!-- PHOTO-CONTAINER 2 -->
-					<div class="photo-container">
-						<div class="photo">
-							<img src="./images/thumbs/thumbnail_2.jpg" alt="">
-							<div class="photo-overlay">
-								<h3>Click to Enlarge</h3>
-								<p>Set the mood with twinkle lights and plants for the balcony.</p>
-							</div>
-						</div>
-					</div>
-					<!-- END PHOTO-CONTAINER 2 -->
-				
-					
-					<!-- PHOTO-CONTAINER 3 -->
-					<div class="photo-container">
-						<div class="photo">
-							<img src="./images/thumbs/thumbnail_3.jpg" alt="">
-							<div class="photo-overlay">
-								<h3>Click to Enlarge</h3>
-								<p>A vintage clock and shelving add warmth to an otherwise plain corner.</p>
-							</div>
-						</div>
-					</div>
-					<!-- END PHOTO-CONTAINER 3 -->
+        <!--Background video-->
+        <div id="Home">
+            <video autoplay muted loop id="Typing_Video">
+                <source src="images/cup of coffee video.mp4" type="video/mp4">
+                <!--Display message if video fails to run-->
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
 
-					<!-- PHOTO-CONTAINER 4 -->
-					<div class="photo-container">
-						<div class="photo">
-							<img src="./images/thumbs/thumbnail_4.jpg" alt="">
-							<div class="photo-overlay">
-								<h3>Click to Enlarge</h3>
-								<p>Get creative with shelving decor!</p>
-							</div>
-						</div>
-					</div>
-					<!-- END PHOTO-CONTAINER 4 -->
+        <!--Video text-->
+        <div class="Video_Text">
+            <h1 class="white-text">Design and Technology</h1>
+            <strong>
+                <p class="center">
+                    <q>Your best and wisest refuge from all troubles is in your science.</q>
+                    <br> -Ada Lovelace
+                    <br>
+                </p>
+            </strong>
+        </div>
 
-					<!-- PHOTO-CONTAINER 5 -->
-							<div class="photo-container">
-								<div class="photo">
-									<img src="./images/thumbs/thumbnail_5.jpg" alt="">
-									<div class="photo-overlay">
-										<h3>Click to Enlarge</h3>
-										<p>Bronze and rustic accents add a cozy feel to the kicthen.</p>
-									</div>
-								</div>
-							</div>
-					<!-- END PHOTO-CONTAINER 5 -->
-				
-					<!-- PHOTO-CONTAINER 6 -->
-						<div class="photo-container">
-							<div class="photo">
-								<img src="./images/thumbs/thumbnail_6.jpg" alt="">
-								<div class="photo-overlay">
-									<h3>Click to Enlarge</h3>
-									<p>Play with color and decor for your countertop containers.</p>
-								</div>
-							</div>
-						</div>
-					<!-- END PHOTO-CONTAINER 6 -->
-				
-					<!-- PHOTO-CONTAINER 7 -->
-					<div class="photo-container">
-						<div class="photo">
-							<img src="./images/thumbs/thumbnail_7.jpg" alt="">
-							<div class="photo-overlay">
-								<h3>Click to Enlarge</h3>
-								<p>Herbs and flowers are wonderful kitchen accents.</p>
-							</div>
-						</div>
-					</div>
-					<!-- END PHOTO-CONTAINER 7 -->
+        <!--About section-->
+        <div class="Row" id="About">
+            <!--Left column-->
+            <div class="Column_2">
+                <img src="images/workspace.jpeg" alt="Picture of Workstation">
+            </div>
+            <!--Right column-->
+            <div class="Column_1">
+                <h1>About</h1>
+                <p>
+                    <br>Marlene, here&#8212;welcome! I enjoy designing and building immersive user-centric websites that you can use to vivify
+                    your ideas. I take pride in creating great custom products that help people and their businesses thrive.<br>
+                    <br>I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>’s Data Science Boot Camp. A full-stack developer trained and experienced in 
+                    HTML, CSS, JavaScript, SQL, C# and more. 
+                    <br>
+                    <br>Let's get to work on your project today. <a href="#Contact">Contact</a> me below for more information.
+                </p>
+            </div>
+        </div>
 
-					
-					<!-- PHOTO-CONTAINER 8 -->
-					<div class="photo-container">
-						<div class="photo">
-							<img src="./images/thumbs/thumbnail_8.jpg" alt="">
-							<div class="photo-overlay">
-								<h3>Click to Enlarge</h3>
-								<p>A two-tier rustic fruit tray adds depth to the dining area.</p>
-							</div>
-						</div>
-					</div>
-					<!-- END PHOTO-CONTAINER 8 -->
-				
-					<!-- PHOTO-CONTAINER 9 -->
-					<div class="photo-container">
-						<div class="photo">
-							<img src="./images/thumbs/thumbnail_9.jpg" alt="">
-							<div class="photo-overlay">
-								<h3>Click to Enlarge</h3>
-								<p>Wall adhesives, like an autumn tree, are the perfect addition to the bedroom decor.</p>
-							</div>
-						</div>
-					</div>
-					<!-- END PHOTO-CONTAINER 9 -->
-				
-				</div>
-			</div>
-		</section>
-		<!-- END GALLERY -->
+        <!--GitHub section-->
+        <div class="Row" id="GitHub">
+            <!--Left column-->
+            <div class="Column_1">
+                <h1>GitHub</h1>
+                <p>
+                    Check out my coding projects here:
+                    <br>
+                    <p class="center"><a href="https://github.com/Mplasen1211" target="_blank">The Tech Academy Github</a></p>
+                </p>
+            </div>
+            <!--Right column-->
+            <div class="Column_2">
+                <a href="https://github.com/the-tech-academy" target="_blank"><img src="images/github logo.png" alt="GitHub Logo"></a>
+            </div>
+        </div>
 
-		<!-- RSVP -->
-		<section id="contact">
-			<div class="container">
-				<div class="heading-padding">
-					<h1 class="heading-padding">Reservations</h1>
-					<div class="reservation">
-						<h2><span>Your new space awaits.</span>
-							<br/>Schedule your free consultation today!
-						</h2>
-						<p class="rsvp-text">
-							Please provide us with your basic contact information.
-						</p>
-						<div class="form-rsvp">
-							<form action="" method="post">
-								<input class="rsvp" type="text" value="" placeholder="First Name">
-								<input class="rsvp" type="text" value="" placeholder="Last Name">
-								<input class="rsvp" type="text" value="" placeholder="Email Address">
-								<input class="rsvp" type="text" value="" placeholder="Phone Number">
-								<div class="form-spacer">
-									<label class="terms">Terms and Conditions</label>
-								</div>
-								<div class="submit">
-									<input type="submit" value="Submit">
-								</div>
-							</form>
-						</div>
-					</div>
+        <!--Contact section-->
+        <div class="Row" id="Contact">
+            <!--Contact image, left column-->
+            <div class="Column_2 Column_tall">
+                <img src="images/coffee and notebook.webp" alt="Picture of Coffee and Notebook">
+            </div>
+            <!--Contact form, right column-->
+            <div class="Column_1 Column_tall">
+                <h1>Contact</h1>
+                <!--This specifies where and how to send the form data; we are leaving it blank-->
+                <form action="" method="POST"> <!-- Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute -->
+                    <label>Name:</label>
+                        <input type="text" placeholder="Please enter your name here">
+                    <label>Email:</label>
+                        <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                    <label>Message:</label>
+                        <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                        <input type="submit" value="SUBMIT">
+                </form>
+            </div>
+        </div>
 
-				</div>
-			</div>
-		</section>
-		<!-- END RSVP -->
-
-		<!-- FOOTER -->
-		<div id="footer">
-			www.cozyliving.com &nbsp;|&nbsp; &copy; 2020
-		</div>
-		<!-- END FOOTER -->
-
-	</body>
-</html> 
+        <!--Footer section-->
+        <footer>
+            <p>
+                <p class="center">&copy Prosper Consulting Inc., <a href="https://www.learncodinganywhere.com/" target="_blank">The Tech Academy</a></p>
+                <br>
+            </p>
+        </footer>
+    </body>
+</html>
